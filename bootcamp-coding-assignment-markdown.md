@@ -1,5 +1,11 @@
 # AUT : (Sequence - Ex 3.1.2) Assignment Document (#Link -Must link it ) [Jira JiraSequence]
 
+### Title : Coding assignment
+- Coding assignment
+
+### Introduction
+- Describe what you are trying to implement with the coding task
+
 ### Coding Points
 - Coding points value
 
@@ -20,6 +26,9 @@
 
 ### Add Screenshot (for UI based work)
 - Add screenshot and screenshot videos
+
+### Changed Coding files list
+- List of changed files
 
 ### Coding Video (must)
 - a video which explains the coding part clearly from vs and pr.
