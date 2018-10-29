@@ -21,7 +21,7 @@
 
 ### Total AUT Tests Present in this Pull-Request
 - 44700
-- http://bit.ly/2Jhz5Mj
+- Link to the CI if possible
 
 ### Total AUT Tests Add Only with this Pull-Request
 - 44700 - 39,049 = 5651
