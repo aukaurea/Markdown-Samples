@@ -1,4 +1,3 @@
-# Loc Markdown Sample
 # AUT : (Sequence - Ex 3.1.2) Assignment Document (#Link -Must link it ) [Jira JiraSequence]
 
 ### Coding Points

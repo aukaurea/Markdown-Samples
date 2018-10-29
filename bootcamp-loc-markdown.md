@@ -1,4 +1,3 @@
-# Loc Markdown Sample
 # AUT : Title (v-{VersionNumber}) [Jira JiraSequence]
 
 ### CI Link
