@@ -1,7 +1,7 @@
 # AUT : (Sequence - Ex 3.1.2) Assignment Document (#Link -Must link it ) [Jira JiraSequence]
 
 ### Title : Coding assignment
-- Coding assignment
+- Coding assignment, what is asked in the coding assignment to implement
 
 ### Introduction
 - Describe what you are trying to implement with the coding task
@@ -35,5 +35,3 @@
 
 ### Implementation Video (must)
 - implementation video means how it works, actual working video (link to googledrive)
-
-**Note: Percentages will be changing as not all the projects are referenced, as those are referenced not covered lines will increase + % of gain will decrease. However, when we cover all we will have a decent number of % gain**
