@@ -1,16 +1,13 @@
 # AUT : Title (v-{VersionNumber}) [Jira JiraSequence]
 
-### CI Link
-- http://jenkins/{PRNumber}/ (if exists)
-
 ### Build Success
 ![buidsuccess](Build Success Screenshot)
 
 ### Initial Coverage
-- 297595 (get the initial coverage from CI or VS)
+- 297595 (get the initial coverage from AUTScriptFinalCoverage Number or VS)
 
 ### Final Coverage
-- 334505 (get the final coverage from CI or VS)
+- 334505 (get the final coverage from AUTScriptFinalCoverage Number or VS)
 
 ### Coverage Gain
 - 334505 - 297595 = 36910
@@ -37,19 +34,21 @@
 ### Current PR
 - {Current Pull-request}
 
-### Initial Screenshot
+### Initial Screenshot (AUTScript Coverage Numbers)
 ![initial](Initial Coverage Screenshot)
 
-### Final Screenshot (CI Coverage Numbers)
+### Final Screenshot (AUTScript Coverage Numbers)
 ![final-c1](Final Coverage Screenshot)
+
+### AUT Script Log
+- Upload the Summary.html file only.
 
 ### Namespaces covered
 - List the namespaces those are covered.
 
-### Test Files (Video, must)
-- [tests code file video](Tests Code file Video Link to Google-Drive)
-
 ### Coverage Report Generated (Video, must)
-- [coverage generated video (during the process)](Tests Code file Video Link to Google-Drive)
+- Start the video before starting the AUTCoverageScript or Clicking on the Analyze Coverage for all
+- Record the full video with voice (loud).
+- Upload the video the the google drive and share the link here.
 
 **Note: Percentages will be changing as not all the projects are referenced, as those are referenced not covered lines will increase + % of gain will decrease. However, when we cover all we will have a decent number of % gain**

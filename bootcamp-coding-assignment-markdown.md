@@ -27,11 +27,7 @@
 ### Add Screenshot (for UI based work)
 - Add screenshot and screenshot videos
 
-### Changed Coding files list
-- List of changed files
-
-### Coding Video (must)
-- a video which explains the coding part clearly from vs and pr.
-
 ### Implementation Video (must)
 - implementation video means how it works, actual working video (link to googledrive)
+- Video should not be related to the coding but the feature.
+- Make sure to include all the testcases example in the video.
