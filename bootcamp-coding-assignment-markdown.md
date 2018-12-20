@@ -1,4 +1,4 @@
-# AUT : (Sequence - Ex 3.1.2) Assignment Document (#Link -Must link it ) [Jira JiraSequence]
+# AUT : (Sequence - Ex 3.1.2) Assignment Title (#DocumentLink -Must link it )
 
 ### Title : Coding assignment
 - Coding assignment, what is asked in the coding assignment to implement
