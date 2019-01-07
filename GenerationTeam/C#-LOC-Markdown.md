@@ -45,7 +45,7 @@
 ![image]()
 
 ### Coverage Report
-- CI Coverage Report Link: http://bit.ly/2EZqPQV
+- CI Coverage Report Link: ...
 - [Final Upload Coverage Html.zip]()
 
 ### No Failing Tests
