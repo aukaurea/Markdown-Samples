@@ -27,7 +27,32 @@
 ### Add Screenshot (for UI based work)
 - Add screenshot and screenshot videos
 
-### Implementation Video (must)
-- implementation video means how it works, actual working video (link to googledrive)
+### Demonstration Video (must)
+- Demonstractoipo video means how it works, actual working video (link to googledrive)
 - Video should not be related to the coding but the feature.
 - Make sure to include all the testcases example in the video.
+
+### Bootcamp Canidate's Check List (must)
+- [ ] Appripriate markdown and title is being used (Title doesn't contain `#DocumentLink` but actual link and actual title than Assignment Title)
+- [ ] Demonstration video added from google drive.
+   - [ ] All test cases are shown in the demonstration video.
+   - [ ] Video is conscise.
+   - [ ] Video length is not more than 10 mins.
+- [ ] CRN review all green. (Exception to CRN review don't apply - if says const -> static readonly, remove set from interface)
+- [ ] Watched Code review guide for the team from prerequisite section. Apply Code review guide on the pull-request.
+   - [ ] Linq is used properly.
+   - [ ] Don't use two loops together on same collection, if needed create simple for loop for process.
+   - [ ] IList creation capacity given.
+   - [ ] No method is more than 15 lines.
+   - [ ] SOLID principal applied.
+   - [ ] DRY principal applied.
+   - [ ] Paths are used based on console arguments.
+- [ ] Jira closed when PR is merged.
+- [ ] Assign to reivewer when check-list is all checked except for merge.
+
+### Reviewers's Check List (must)
+- [ ] Appripriate markdown and title is being used (Title doesn't contain `#DocumentLink` but actual link and actual title than Assignment Title)
+- [ ] Code quality is acceptable.
+- [ ] CRN Review all green.
+- [ ] Demonstration video given.
+- [ ] Implementation works.
