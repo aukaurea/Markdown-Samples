@@ -37,6 +37,7 @@
 - [ ] Demonstration video added from google drive.
    - [ ] All test cases are shown in the demonstration video.
    - [ ] Video is conscise.
+   - [ ] TestCase shown without implementation and with implementation.
    - [ ] Video length is not more than 10 mins.
 - [ ] Updated task's excel sheet with ETA for investigation, development and status changed to Code Review.
 - [ ] Already tracked your pull-requests and Jira in a different sheet inside the task workbook (excel).
