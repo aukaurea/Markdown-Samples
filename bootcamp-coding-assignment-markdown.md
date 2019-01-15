@@ -38,6 +38,8 @@
    - [ ] All test cases are shown in the demonstration video.
    - [ ] Video is conscise.
    - [ ] Video length is not more than 10 mins.
+- [ ] Updated task's excel sheet with ETA for investigation, development and status changed to Code Review.
+- [ ] Already tracked your pull-requests and Jira in a different sheet inside the task workbook (excel).
 - [ ] CRN review all green. (Exception to CRN review don't apply - if says const -> static readonly, remove set from interface)
 - [ ] Watched Code review guide for the team from prerequisite section. Apply Code review guide on the pull-request.
    - [ ] Linq is used properly.
