@@ -70,7 +70,7 @@
   - [ ] Used CsharpSyntaxNode over SyntaxNode (must).
   - [ ] Ask for pattern running Json file and commit the pattern running json file.
 - [ ] Watched Code review guide for the team from prerequisite section. Apply Code review guide on the pull-request.
-   - [ ] Ommited my Author Name from Pattern.
+   - [ ] Ommited (Your) Author Name from Pattern.
    - [ ] Code doesn't contain magic strings, all are placed in the StaticTypes (CsharpIdentifiers, CommonConstants, AnyIdentifiers)
    - [ ] Linq is used properly.
    - [ ] Don't use two loops together on same collection, if needed create simple for loop for process.
