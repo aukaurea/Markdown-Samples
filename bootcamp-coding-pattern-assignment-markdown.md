@@ -1,4 +1,4 @@
-# AUT : (Sequence - Ex 3.1.2) Assignment Title (#DocumentLink -Pattern Creation)
+# AUT Pattern Name : [Name of the Pattern]
 
 ### Title : Coding assignment
 - Coding assignment, what is asked in the coding assignment to implement
@@ -27,11 +27,26 @@
 ### Add Screenshot (for UI based work)
 - Add screenshot and screenshot videos
 
+### Pattern Found History
+- What steps taken to find the pattern
+- And who found the pattern and how.
+
 ### Static Analyzer Console
 - CI Links:
 - Combined Coverage Report:
 
+### Pattern Business Value
+- Write why your pattern is adding new value along with all the existing patterns. It is non-related to coverage gain. Only the business value terms.
+
+### Find Such Block Percentage
+- Your assumption on Finding Such Blocks in any given repo. (low to high put an average estimation it should not be based on samplemocking codebase.)
+
 ### Confluence Page Link
+
+### Demonstrated CodeBase
+- ...(zip and codebase here with package so that running time is slower but we understand the filesize issue)
+
+### Video shows that AESCIS runs properly with new pattern.
 - ...
 
 ### Demonstration Video (must)
@@ -58,6 +73,8 @@
   - [ ] Used CsharpSyntaxNode over SyntaxNode (must).
   - [ ] Ask for pattern running Json file and commit the pattern running json file.
 - [ ] Watched Code review guide for the team from prerequisite section. Apply Code review guide on the pull-request.
+   - [ ] Ommited my Author Name from Pattern.
+   - [ ] Code doesn't contain magic strings, all are placed in the StaticTypes (CsharpIdentifiers, CommonConstants, AnyIdentifiers)
    - [ ] Linq is used properly.
    - [ ] Don't use two loops together on same collection, if needed create simple for loop for process.
    - [ ] IList creation capacity given.
@@ -65,6 +82,8 @@
    - [ ] SOLID principal applied.
    - [ ] DRY principal applied.
    - [ ] Paths are used based on console arguments.
+   - [ ] Optimized framework in terms of redundancy.
+   - [ ] Created pattern doesn't contian bug in the static analyzer in the CI.
 - [ ] Jira closed when PR is merged.
 - [ ] Assign to reivewer when check-list is all checked except for merge.
 
@@ -76,6 +95,7 @@
    - [ ] Pattern is run against AESCIS project in file mode and generation is okay for new pattern + initializer pattern. Recording added.
    - [ ] Confluence page created for the pattern linked at : ...
    - [ ] Pattern Contains Mocking of Framework (Moq or MsFakes)
+   - [ ] Optimized framework in terms of redundancy.
    - [ ] Created pattern doesn't contian bug in the static analyzer in the CI.
    - [ ] Used CsharpSyntaxNode over SyntaxNode (must).
    - [ ] Ask for pattern running Json file and commit the pattern running json file.
