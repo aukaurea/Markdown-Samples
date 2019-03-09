@@ -74,20 +74,28 @@
    - [ ] Code doesn't contain magic strings, all are placed in the StaticTypes (CsharpIdentifiers, CommonConstants, AnyIdentifiers)
    - [ ] Linq is used properly.
      - [ ] Avoid using `Select(...).Select(..)` or avoid two or more loops when task can be combined into one.
-            ```csharp
+            
+            ```
               doTask.Select(.. does one task...);
               doTask.Select(.. does another task...);
               // you are actually writing two forloop, use one. Avoid two forloops
             ```
    - [ ] Don't use two loops together on same collection, if needed create simple for loop for process.
    - [ ] IList creation capacity given.
-   - [ ] No method is more than 15 lines.
    - [ ] SOLID principal applied.
+   - [ ] Used shouldly instead of throw new Argument Exception, point the argument name in the message. `arg.ShouldNotbeNull(nameof(arg));`
+   - [ ] Rule of thums of clean code up applied
+     - [ ] No method is more than 15 lines.
+     - [ ] No method is taking more than three parameters.
+     - [ ] Converted more than 3 parameters to an interface.
+     - [ ] Parameters are not delegating more than 2 interfaces to other methods.
    - [ ] DRY principal applied.
    - [ ] Paths are used based on console arguments.
    - [ ] Optimized framework in terms of redundancy.
    - [ ] Created pattern doesn't contian bug in the static analyzer in the CI.
    - [ ] Datatemplate doesn't contain any mix of tabs and spaces, no imbalanced spaces.
+   - [ ] Errors are captured with LogHelper or ConsoleLogger.
+   - [ ] Any I/O is handled with `Try-Catch` ,plus, `LogHelper` used properly. And also MutexHelper is being used.
 - [ ] Jira closed when PR is merged.
 - [ ] Assign to reivewer when check-list is all checked except for merge.
 
