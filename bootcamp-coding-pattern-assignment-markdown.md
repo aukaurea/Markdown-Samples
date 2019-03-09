@@ -6,9 +6,6 @@
 ### Introduction
 - Describe what you are trying to implement with the coding task
 
-### Coding Points
-- Coding points value
-
 ### Link to Assignment
 - Assignment document link
 
@@ -43,11 +40,11 @@
 
 ### Confluence Page Link
 
-### Demonstrated CodeBase
+### Demonstrated CodeBase (zip)
 - ...(zip and codebase here with package so that running time is slower but we understand the filesize issue)
 
-### Video shows that AESCIS runs properly with new pattern.
-- ...
+### AESCIS Running Video
+- Video shows that AESCIS runs properly with new pattern. Show from generate UI, record full video.
 
 ### Demonstration Video (must)
 - Demonstractoipo video means how it works, actual working video (link to googledrive)
