@@ -73,6 +73,12 @@
    - [ ] Ommited (Your) Author Name from Pattern.
    - [ ] Code doesn't contain magic strings, all are placed in the StaticTypes (CsharpIdentifiers, CommonConstants, AnyIdentifiers)
    - [ ] Linq is used properly.
+     - [ ] Avoid using `Select(...).Select(..)` or avoid two or more loops when task can be combined into one.
+            ```csharp
+              doTask.Select(.. does one task...);
+              doTask.Select(.. does another task...);
+              // you are actually writing two forloop, use one. Avoid two forloops
+            ```
    - [ ] Don't use two loops together on same collection, if needed create simple for loop for process.
    - [ ] IList creation capacity given.
    - [ ] No method is more than 15 lines.
@@ -81,13 +87,14 @@
    - [ ] Paths are used based on console arguments.
    - [ ] Optimized framework in terms of redundancy.
    - [ ] Created pattern doesn't contian bug in the static analyzer in the CI.
+   - [ ] Datatemplate doesn't contain any mix of tabs and spaces, no imbalanced spaces.
 - [ ] Jira closed when PR is merged.
 - [ ] Assign to reivewer when check-list is all checked except for merge.
 
 ### Reviewers's Check List (must)
 - [ ] Appripriate markdown and title is being used (Title doesn't contain `#DocumentLink` but actual link and actual title than Assignment Title)
 - [ ] Code quality is acceptable.
-- [ ] Is Pattern Assignment
+- [ ] Specific Quality Bars Passed
    - [ ] Is outputted pattern buildable. (Initializer Pattern + NewlyCreated Pattern) Output should be buildable.
    - [ ] Pattern is run against AESCIS project in file mode and generation is okay for new pattern + initializer pattern. Recording added.
    - [ ] Confluence page created for the pattern linked at : ...
