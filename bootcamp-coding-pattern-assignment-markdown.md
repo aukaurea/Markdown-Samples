@@ -58,7 +58,7 @@
 - [ ] Updated task's excel sheet with ETA for investigation, development and status changed to Code Review.
 - [ ] Already tracked your pull-requests and Jira in a different sheet inside the task workbook (excel).
 - [ ] CRN review all green. (Exception to CRN review don't apply - if says const -> static readonly, remove set from interface)
-- [ ] Is Pattern Assignment
+- [ ] Pattern Quality Checking Bars
    - [ ] Is outputted pattern buildable. (Initializer Pattern + NewlyCreated Pattern) Output should be buildable.
    - [ ] Pattern is run against AESCIS project in file mode and generation is okay for new pattern + initializer pattern. Recording added.
   - [ ] Confluence page created for the pattern linked at : ...
@@ -75,18 +75,20 @@
             ```csharp
               doTask.Select(.. does one task...);
               doTask.Select(.. does another task...);
-              // you are actually writing two forloop, use one. Avoid two forloops
+              // you are actually writing two forloop, use one. Avoid two forloops, write a single plain for loop, language has it you know, LINQ is only released around November, 2007
             ```
    - [ ] Don't use two loops together on same collection, if needed create simple for loop for process.
    - [ ] IList creation capacity given.
    - [ ] SOLID principal applied.
    - [ ] Used shouldly instead of throw new Argument Exception, point the argument name in the message. `arg.ShouldNotbeNull(nameof(arg));`
-   - [ ] Rule of thums of clean code up applied
+   - [ ] Rule of thums for Clean Code Applied
      - [ ] No method is more than 15 lines.
      - [ ] No method is taking more than three parameters.
      - [ ] Converted more than 3 parameters to an interface.
      - [ ] Avoid more than 2 interfaces parameters delegating to other methods (use one). 
-   - [ ] DRY principal applied.
+     - [ ] DRY principal applied.
+     - [ ] All methods are taking Interface than actual object.
+     - [ ] If modified existing method then refactoring applied as per the rule.
    - [ ] Paths are used based on console arguments.
    - [ ] Optimized framework in terms of redundancy.
    - [ ] Created pattern doesn't contian bug in the static analyzer in the CI.
