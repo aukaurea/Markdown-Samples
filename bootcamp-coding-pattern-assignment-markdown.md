@@ -28,10 +28,6 @@
 - What steps taken to find the pattern
 - And who found the pattern and how.
 
-### Static Analyzer Console
-- CI Links:
-- Combined Coverage Report:
-
 ### Pattern Business Value
 - Write why your pattern is adding new value along with all the existing patterns. It is non-related to coverage gain. Only the business value terms.
 
@@ -39,6 +35,7 @@
 - Your assumption on Finding Such Blocks in any given repo. (low to high put an average estimation it should not be based on samplemocking codebase.)
 
 ### Confluence Page Link
+- Page link
 
 ### Demonstrated CodeBase (zip)
 - ...(zip and codebase here with package so that running time is slower but we understand the filesize issue)
@@ -75,7 +72,7 @@
    - [ ] Linq is used properly.
      - [ ] Avoid using `Select(...).Select(..)` or avoid two or more loops when task can be combined into one.
             
-            ```
+            ```csharp
               doTask.Select(.. does one task...);
               doTask.Select(.. does another task...);
               // you are actually writing two forloop, use one. Avoid two forloops
@@ -88,7 +85,7 @@
      - [ ] No method is more than 15 lines.
      - [ ] No method is taking more than three parameters.
      - [ ] Converted more than 3 parameters to an interface.
-     - [ ] Parameters are not delegating more than 2 interfaces to other methods.
+     - [ ] Avoid more than 2 interfaces parameters delegating to other methods (use one). 
    - [ ] DRY principal applied.
    - [ ] Paths are used based on console arguments.
    - [ ] Optimized framework in terms of redundancy.
