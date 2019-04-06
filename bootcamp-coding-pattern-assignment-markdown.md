@@ -20,8 +20,11 @@
 - Page link of the pattern
 The pattern should be here https://confluence.devfactory.com/display/AUTT/C%23+Code+Patterns?src=contextnavpagetreemode
 
-### Demonstrated CodeBase (zip)
+### Demonstrated CodeBase in zip (must)
 - ...(zip and codebase here with package so that running time is slower but we understand the filesize issue)
+
+### Mutation Tool Screenshot (must)
+- Generate unit tests by your pattern on a sample code above. Run mutation tool for the generated tests. Add screenshot with mutation coverage. Mutation coverage should be >= 60%
 
 ### AESCIS Running Video (must)
 - Video shows that AESCIS runs properly with new pattern. Show from generate UI, record full video.
