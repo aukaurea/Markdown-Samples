@@ -1,46 +1,29 @@
 # AUT Pattern Name : [Name of the Pattern]
 
-### Title : Coding assignment
-- Coding assignment, what is asked in the coding assignment to implement
+### Jira Ticket (must)
+- https://crossover.atlassian.net/browse/REM-{Current_Jira}
 
-### Introduction
-- Describe what you are trying to implement with the coding task
-
-### Link to Assignment
-- Assignment document link
-
-### Previous Jira
-- https://jira.devfactory.com/browse/{Previous_Jira}
-
-### Current Jira
-- https://jira.devfactory.com/browse/{Current_Jira}
-
-### Previous Subsequent Pull-Request
-- {Previous Pull-request}
-
-### Current PR
+### Current PR (must)
 - {Current Pull-request}
 
-### Add Screenshot (for UI based work)
-- Add screenshot and screenshot videos
-
-### Pattern Found History
+### Pattern Found History (must)
 - What steps taken to find the pattern
 - And who found the pattern and how.
 
-### Pattern Business Value
+### Pattern Business Value (must)
 - Write why your pattern is adding new value along with all the existing patterns. It is non-related to coverage gain. Only the business value terms.
 
 ### Find Such Block Percentage
 - Your assumption on Finding Such Blocks in any given repo. (low to high put an average estimation it should not be based on samplemocking codebase.)
 
-### Confluence Page Link
-- Page link
+### Confluence Page Link (must)
+- Page link of the pattern
+The pattern should be here https://confluence.devfactory.com/display/AUTT/C%23+Code+Patterns?src=contextnavpagetreemode
 
 ### Demonstrated CodeBase (zip)
 - ...(zip and codebase here with package so that running time is slower but we understand the filesize issue)
 
-### AESCIS Running Video
+### AESCIS Running Video (must)
 - Video shows that AESCIS runs properly with new pattern. Show from generate UI, record full video.
 
 ### Demonstration Video (must)
@@ -48,15 +31,12 @@
 - Video should not be related to the coding but the feature.
 - Make sure to include all the testcases example in the video.
 
-### Bootcamp Canidate's Check List (must)
-- [ ] Appripriate markdown and title is being used (Title doesn't contain `#DocumentLink` but actual link and actual title than Assignment Title)
+### Remotecamp IC Check List. Check yourself.
 - [ ] Demonstration video added from google drive.
    - [ ] All test cases are shown in the demonstration video.
    - [ ] Video is conscise.
    - [ ] TestCase shown without implementation and with implementation.
    - [ ] Video length is not more than 10 mins.
-- [ ] Updated task's excel sheet with ETA for investigation, development and status changed to Code Review.
-- [ ] Already tracked your pull-requests and Jira in a different sheet inside the task workbook (excel).
 - [ ] CRN review all green. (Exception to CRN review don't apply - if says const -> static readonly, remove set from interface)
 - [ ] Pattern Quality Checking Bars
    - [ ] Is outputted pattern buildable. (Initializer Pattern + NewlyCreated Pattern) Output should be buildable.
@@ -66,11 +46,10 @@
   - [ ] Created pattern doesn't contian bug in the static analyzer in the CI.
   - [ ] Used CsharpSyntaxNode over SyntaxNode (must).
   - [ ] Ask for pattern running Json file and commit the pattern running json file.
-- [ ] Watched Code review guide for the team from prerequisite section. Apply Code review guide on the pull-request.
-   - [ ] Ommited (Your) Author Name from Pattern.
-   - [ ] Code doesn't contain magic strings, all are placed in the StaticTypes (CsharpIdentifiers, CommonConstants, AnyIdentifiers)
-   - [ ] Linq is used properly.
-     - [ ] Avoid using `Select(...).Select(..)` or avoid two or more loops when task can be combined into one.
+  - [ ] Ommited (Your) Author Name from Pattern.
+  - [ ] Code doesn't contain magic strings, all are placed in the StaticTypes (CsharpIdentifiers, CommonConstants, AnyIdentifiers)
+  - [ ] Linq is used properly.
+  - [ ] Avoid using `Select(...).Select(..)` or avoid two or more loops when task can be combined into one.
             
             ```
               doTask.Select(.. does one task...).ToList();
@@ -95,8 +74,6 @@
    - [ ] Datatemplate doesn't contain any mix of tabs and spaces, no imbalanced spaces.
    - [ ] Errors are captured with LogHelper or ConsoleLogger.
    - [ ] Any I/O is handled with `Try-Catch` ,plus, `LogHelper` used properly. Moreover, use MutexHelper for file I/O.
-- [ ] Jira closed when PR is merged.
-- [ ] Assign to reivewer when check-list is all checked except for merge.
 
 ### Reviewers's Check List (must)
 - [ ] Appripriate markdown and title is being used (Title doesn't contain `#DocumentLink` but actual link and actual title than Assignment Title)
