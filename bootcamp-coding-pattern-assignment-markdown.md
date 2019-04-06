@@ -28,11 +28,13 @@ The pattern should be here https://confluence.devfactory.com/display/AUTT/C%23+C
 
 ### AESCIS Running Video (must)
 - Video shows that AESCIS runs properly with new pattern. Show from generate UI, record full video.
+- Application console output from the demonstration video should be attached
 
 ### Demonstration Video (must)
-- Demonstractoipo video means how it works, actual working video (link to googledrive)
+- Demonstraction video means how it works, actual working video (link to googledrive)
 - Video should not be related to the coding but the feature.
 - Make sure to include all the testcases example in the video.
+- Application console output from the demonstration video should be attached
 
 ### Remotecamp IC Check List. Check yourself.
 - [ ] Demonstration video added from google drive.
